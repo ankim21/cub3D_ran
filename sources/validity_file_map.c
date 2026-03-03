@@ -6,7 +6,7 @@
 /*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:59:29 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/03/03 15:01:12 by ankim            ###   ########.fr       */
+/*   Updated: 2026/03/03 15:53:24 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ static bool	check_player_amount(t_game *game, char *line, int pos_y)
 		}
 		i++;
 	}
-	return (TRUE); // VOID RETURN AS YOUR CHECK IS ALREADY IN THE HOUSING FUNCTION
+	return (TRUE); // VOID RETURN?
 }
 
 bool	check_map_content(t_game *game)

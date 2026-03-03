@@ -6,7 +6,7 @@
 /*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:57:57 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/03/03 14:37:42 by ankim            ###   ########.fr       */
+/*   Updated: 2026/03/03 15:56:32 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ typedef struct s_player
 	int		move_y;
 }	t_player;
 
-typedef struct s_assets
+typedef struct s_assets // why assets east,west,north,south char?
 {
 	char	*east;
 	char	*west;
