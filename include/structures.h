@@ -6,7 +6,7 @@
 /*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:57:57 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/03/03 12:40:28 by ankim            ###   ########.fr       */
+/*   Updated: 2026/03/03 14:37:42 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,13 @@ typedef struct s_map
 	int		max_length;
 	int		max_width;
 }	t_map;
+
+// float px, py 
+// for rotations of player, sin/cos/tan and PI
+// sin/cos/tan 2pi (6.28 value) - in C we go in radians so not 360 like in degrees, but radians
+// define player position as px,py,playerdeltax, playerdeltay, as well as p_angle 
+
+// look left (0.1) change bc need to be smaller
 
 typedef struct s_player
 {

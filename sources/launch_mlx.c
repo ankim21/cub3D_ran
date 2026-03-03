@@ -6,7 +6,7 @@
 /*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:58:37 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/03/03 13:20:16 by ankim            ###   ########.fr       */
+/*   Updated: 2026/03/03 14:53:08 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,7 @@ int	launch_mlx(t_game *game)
 		clean_exit(game);
 	}
 	game->mlx_win = \
-		mlx_new_window(game->mlx, WINDOW_WIDTH, WINDOW_HEIGHT, "The window");
+		mlx_new_window(game->mlx, WINDOW_WIDTH, WINDOW_HEIGHT, "THE WINDOW");
 	game->img.mlx_img = mlx_new_image(game->mlx, WINDOW_WIDTH, WINDOW_HEIGHT);
 	game->img.addr = mlx_get_data_addr(game->img.mlx_img,
 			&game->img.bits_per_pixel, &game->img.line_len, &game->img.endian);

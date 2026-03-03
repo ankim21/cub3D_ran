@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3D.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabi-aka <rabi-aka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:39:28 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/02/28 18:39:31 by rabi-aka         ###   ########.fr       */
+/*   Updated: 2026/03/03 14:49:00 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 //lib
 # include <math.h>
 # include <stdio.h>
-# include <mlx.h>
+# include "mlx.h"
 # include <unistd.h>
 # include <fcntl.h>
 # include <stdbool.h>
@@ -29,7 +29,7 @@
 # define BUFFER_SIZE 1
 # define TRUE 1
 # define FALSE 0
-# define WINDOW_WIDTH 640
+# define WINDOW_WIDTH 1440 // can we change window size???
 # define WINDOW_HEIGHT 480
 # define BLOCK_SIZE 10
 # define TEX_SIZE 64

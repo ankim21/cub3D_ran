@@ -3,14 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   move.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabi-aka <rabi-aka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:58:46 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/02/28 18:58:47 by rabi-aka         ###   ########.fr       */
+/*   Updated: 2026/03/03 14:38:52 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3D.h"
+
+
+// looks like we are moving by changing the ray positions on x and y plane
+// why not the players position ?
 
 void	move_forward(t_game *game)
 {

@@ -6,7 +6,7 @@
 /*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:59:29 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/03/03 12:33:47 by ankim            ###   ########.fr       */
+/*   Updated: 2026/03/03 15:01:12 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,14 +69,14 @@ static bool	check_player_amount(t_game *game, char *line, int pos_y)
 		if (line[i] == 'E' || line[i] == 'N' || line[i] == 'S'
 			|| line[i] == 'W')
 		{
-			game->ray.pos_x = i + 0.5;
+			game->ray.pos_x = i + 0.5; // why do we change ray positions?
 			game->ray.pos_y = pos_y + 0.5;
 			game->player.orientation = line[i];
 			game->player.is_player++;
 		}
 		i++;
 	}
-	return (TRUE);
+	return (TRUE); // VOID RETURN AS YOUR CHECK IS ALREADY IN THE HOUSING FUNCTION
 }
 
 bool	check_map_content(t_game *game)

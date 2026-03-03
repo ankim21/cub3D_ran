@@ -6,7 +6,7 @@
 /*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:59:25 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/03/03 14:06:26 by ankim            ###   ########.fr       */
+/*   Updated: 2026/03/03 14:54:57 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ bool	all_infos(t_game *game)
 
 static bool	check_double_infos(char *s, t_game *game)
 {
-	if (!ft_strcmp(s, "NO") && game->assets.north)
+	if (!ft_strcmp(s, "NO") && game->assets.north) // will always be true non bc memset?
 		return (TRUE);
 	if (!ft_strcmp(s, "SO") && game->assets.south)
 		return (TRUE);
