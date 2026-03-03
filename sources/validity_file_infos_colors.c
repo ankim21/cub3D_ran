@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   validity_file_infos_colors.c                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabi-aka <rabi-aka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ankim <ankim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 18:59:16 by rabi-aka          #+#    #+#             */
-/*   Updated: 2026/02/28 19:50:44 by rabi-aka         ###   ########.fr       */
+/*   Updated: 2026/03/03 14:24:48 by ankim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3D.h"
+#include "../include/cub3D.h"
 
 static int	get_color(char *s)
 {
